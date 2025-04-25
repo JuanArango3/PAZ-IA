@@ -8,9 +8,8 @@ services:
     restart: unless-stopped
 
   frontend:
-    build:
-      context: .
-      dockerfile: Dockerfile
+    image: 192.168.1.10/pazia-front
+
     ports:
       - "7856:3000"
     environment:
