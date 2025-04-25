@@ -10,6 +10,9 @@ export default function Home() {
                 <CardTitle className="flex items-center gap-2">
                     PAZ.IA
                 </CardTitle>
+                <p className="text-xs text-gray-500 mt-1">
+                    Nota: Este asistente se ejecuta en un servidor modesto. Las respuestas pueden tardar entre 1 y 5 minutos. ¡Gracias por tu paciencia!
+                </p>
 
             </CardHeader>
             <CardContent>
